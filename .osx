@@ -423,6 +423,9 @@ defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" "@\\U21a9"
 #defaults write com.apple.terminal FocusFollowsMouse -bool true
 #defaults write org.x.X11 wm_ffm -bool true
 
+# Install oh-my-zsh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################
@@ -509,6 +512,19 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool false
 
 # Hide the app in the background if it’s not the front-most window
 #defaults write com.twitter.twitter-mac HideInBackground -bool true
+
+###############################################################################
+# Install various stuff                                                       #
+###############################################################################
+
+#Macports
+#http://www.macports.org/install.php
+
+#Node.js
+#NPN
+
+
+#https://github.com/jtokoph/editr
 
 ###############################################################################
 # Kill affected applications                                                  #
